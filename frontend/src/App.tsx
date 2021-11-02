@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>SDA TECNOLOGIA - Olá Mundo</h1>
+      <h1 className="text-primary">SDA TECNOLOGIA - Olá Mundo</h1>
     </div>
   );
 }
