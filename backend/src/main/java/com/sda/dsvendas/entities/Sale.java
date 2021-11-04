@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -27,7 +26,6 @@ public class Sale {
 	@JoinColumn(name = "seller_id")
 	
 	private Seller seller;
-	
 	
 	public Sale() {
 	}
@@ -88,5 +86,4 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
-
 }
